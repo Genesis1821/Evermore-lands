@@ -1,0 +1,10 @@
+div{
+    display: grid;
+    margin: 15%;
+}
+.grid1{
+    grid-template-columns: 1/2fr;
+}
+.grid2{
+    grid-template-columns: 1/2fr;
+}
