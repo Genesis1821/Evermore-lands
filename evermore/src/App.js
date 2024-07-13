@@ -1,5 +1,5 @@
 import './App.css';
-import RegistroPropiedades from './paginas/registro_propiedades';
+import LandingPage from './paginas/home';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
    
-        <RegistroPropiedades />
+        <LandingPage />
     </div>
   );
 }
