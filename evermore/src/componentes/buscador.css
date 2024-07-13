@@ -1,0 +1,23 @@
+.inputBuscador{
+    display: flex;
+    margin-bottom: .5em;
+    font-size: 1rem;
+   margin: auto;
+   justify-content: center;
+}
+input{
+    margin-top: .5em;
+    padding: 0.5em;
+    font-size: 1rem;
+    width: 50%;
+    border: none;
+  }
+
+  #boton{
+    padding:0.8em 1em ;
+    background:#176087;
+    color:#e6e6e6;
+    border:none;
+    border-radius: .5em;
+    margin-left: 1rem;
+  }

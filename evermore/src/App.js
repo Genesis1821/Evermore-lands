@@ -1,5 +1,5 @@
 import './App.css';
-import Propiedades from './paginas/propiedades';
+import InicioSesion from './paginas/sing_up';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
    
-        <Propiedades />
+        <InicioSesion />
     </div>
   );
 }
