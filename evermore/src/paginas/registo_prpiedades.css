@@ -1,0 +1,47 @@
+
+
+#title{
+    font-size:3em ;
+    font-weight: 700;
+    width: 80%;
+  }
+  .description{
+    font-size: 1.6em;
+    width: 70%;
+    padding: 1rem;
+  }
+ 
+  #formularioPropiedades{
+    width: 50%;
+    padding: 5%;
+    margin: auto;
+    
+  }
+  .input , .bar, .select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+    font-size: 1rem;
+    width: 100%;
+  }
+  input{
+    margin-top: .5em;
+    padding: 0.5em;
+    font-size: 1rem;
+  }
+  .select{
+    padding: 0.5rem;
+    font-size: 1rem;
+   width: 100%;
+  }
+  #comment{
+    width: 100%;
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+  }.submit-button{
+    padding:0.8em 1em ;
+    background:#176087;
+    color:#e6e6e6;
+    border:none;
+  }
+  

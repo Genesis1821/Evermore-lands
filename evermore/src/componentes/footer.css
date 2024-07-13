@@ -1,0 +1,36 @@
+
+
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-size: 1rem;
+    color: #92374d;
+   
+}
+.grupoMedia{
+    list-style: none;
+    display: flex;
+   
+}
+.enlaceMedia{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+
+}
+.enlaceMedia:hover{
+    color: #176087;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.icons{
+    width: 1rem;
+    margin: 1rem;
+}
