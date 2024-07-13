@@ -9,7 +9,7 @@ function RegistroPropiedades(){
         <>
          <Navbar />
          <FormPropiedades />
-         <Carrusel />
+         
          <Footer />
         </>
     )
