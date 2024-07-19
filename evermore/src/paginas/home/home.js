@@ -1,6 +1,6 @@
-import Navbar from "../componentes/navbar"
-import Footer from "../componentes/footer"
-import Articulo from "../componentes/artHome";
+import Navbar from "../../componentes/Navbar/navbar"
+import Footer from "../../componentes/footer"
+import Articulo from "../../componentes/ArticuloHome/artHome";
 import './home.css'
 
 function LandingPage(){

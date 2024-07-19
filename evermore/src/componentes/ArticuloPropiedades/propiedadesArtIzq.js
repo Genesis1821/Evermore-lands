@@ -1,7 +1,7 @@
 import './propiedadesArt.css'
-import chateau from'../img/chateau.jpg'
-import arwuitectura from'../img/architecture.jpg'
-import aley from '../img/alley.jpg'
+import chateau from'../../img/chateau.jpg'
+import arwuitectura from'../../img/architecture.jpg'
+import aley from '../../img/alley.jpg'
 
 function PropiedadesArt(img){
     

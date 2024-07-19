@@ -1,8 +1,8 @@
-import "./footer.css";
-import face from '//evermore/src/img/facebook.png'
-import insta from '//evermore/src/img/instagram.png'
-import link from '//evermore/src/img/linkedin.png'
-import yout from '//evermore/src/img/youtube.png'
+import "./Footer/footer.css";
+import face from '../img/facebook.png'
+import insta from '../img/instagram.png'
+import link from '../img/linkedin.png'
+import yout from '../img/youtube.png'
 
 
 function Footer(){

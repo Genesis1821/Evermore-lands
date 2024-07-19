@@ -1,3 +1,5 @@
+import './sing_up.css'
+
 function SingForm(){
     return(
         <>

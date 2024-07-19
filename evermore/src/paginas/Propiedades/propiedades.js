@@ -1,6 +1,6 @@
-import Navbar from "../../componentes/navbar"
-import Footer from "../../componentes/Footer/footer"
-import PropiedadesArt from "../../componentes/propiedadesArtIzq"
+import Navbar from "../../componentes/Navbar/navbar"
+import Footer from "../../componentes/footer"
+import PropiedadesArt from "../../componentes/ArticuloPropiedades/propiedadesArtIzq"
 import Buscador from "../../componentes/Buscador/buscador"
 
 function Propiedades(){
