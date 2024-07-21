@@ -8,7 +8,7 @@ function Navbar(){
         <nav>
             <h2>Everhome</h2>
             <ul className="listPages">
-                <Link to={"/"} className='navEnlace'>Inicio</Link>
+                <Link to={"/home"} className='navEnlace'>Inicio</Link>
                 <Link to={"/propiedades"} className='navEnlace'>Propiedades</Link>
                 <Link to={"/registroPropiedades"} className='navEnlace'>Registro de propiedades</Link>
                 <Link to={"/registroPersonas"} className='navEnlace'>Comentario</Link>

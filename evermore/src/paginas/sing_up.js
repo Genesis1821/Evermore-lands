@@ -4,16 +4,14 @@ import SingForm from "../componentes/form"
 import './sing_up.css'
 
 
-function InicioSesion(){
+function Comentario(){
     return(
-        <>
+        <div className="cuerpoComentario">
         <Navbar />
         <SingForm />
         <Footer />
-
-
-        </>
+        </div>
     )
 }
 
-export default InicioSesion
+export default Comentario
