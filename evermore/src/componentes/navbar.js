@@ -10,8 +10,8 @@ function Navbar(){
             <ul className="listPages">
                 <Link to={"/"} className='navEnlace'>Landing Page</Link>
                 <Link to={"/propiedades"} className='navEnlace'>Propiedades</Link>
-                <Link to={"/registro_propiedades"} className='navEnlace'>Registro de propiedades</Link>
-                <Link to={"/registro_personas"} className='navEnlace'>Inicion de sesion</Link>
+                <Link to={"/registroPropiedades"} className='navEnlace'>Registro de propiedades</Link>
+                <Link to={"/registroPersonas"} className='navEnlace'>Inicion de sesion</Link>
 
             </ul>
         </nav>
