@@ -9,7 +9,6 @@ function Propiedades(){
          <Navbar />
          <Buscador />
          <PropiedadesArt />
-     
          <Footer />
         </>
     )
