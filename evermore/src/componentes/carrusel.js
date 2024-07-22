@@ -21,13 +21,13 @@ function Carrusel({imagenes}){
     }
    return(
     <div className='contenedor'>
- <button onClick={anteriorImagen} ><img src={flechaA} alt='Flecha anterior' width={50}></img></button>
+ <button onClick={anteriorImagen} ><img src={flechaA} alt='Flecha anterior' width={30}></img></button>
  {imagenes.map((imagen, index)=>{
     return <div>{imagennActual === index && (<img key={index} src={imagen} alt='imagen Carrusel' className='imagenCarrusel' ></img>
     )}
                 </div>
  } )}
- <button onClick={siguienteImagen} ><img src={flechaS} alt='Flecha siguiente' width={50}></img></button>
+ <button onClick={siguienteImagen} ><img src={flechaS} alt='Flecha siguiente' width={30}></img></button>
     
     </div>
    )

@@ -2,6 +2,7 @@ import Navbar from "../componentes/navbar"
 import Footer from "../componentes/footer"
 import PropiedadesArt from "../componentes/propiedadesArtIzq"
 import Buscador from "../componentes/buscador"
+import './propiedades.css'
 
 function Propiedades(){
     return(

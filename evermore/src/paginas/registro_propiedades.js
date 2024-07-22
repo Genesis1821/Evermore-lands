@@ -12,12 +12,12 @@ import piscina from '../img/casaPiscina.jpg'
 function RegistroPropiedades(){
     const imagenesSlider =[fachada,casa, balcon, constuccion, piscina]
     return(
-        <>
+        <div className="bodyRegistroP">
          <Navbar />
          <FormPropiedades />
          <Carrusel imagenes={imagenesSlider} />
          <Footer />
-        </>
+        </div>
     )
 }
 
