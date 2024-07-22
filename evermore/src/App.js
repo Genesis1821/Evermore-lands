@@ -1,14 +1,20 @@
 import { Routes, Route } from "react-router-dom"
 import './App.css';
-import RegistroPropiedades from './paginas/Registro_propiedades/registro_propiedades';
-
-
+import LandingPage from './paginas/home'
+import Propiedades from './paginas/propiedades'
+import RegistroPropiedades from './paginas/registro_propiedades'
+import Comentario from './paginas/sing_up'
 
 function App() {
   return (
-    <div className="App">
-   
-        <RegistroPropiedades />
+    <div className="App">   
+     <Routes>
+      <Route path="/home" element={ <LandingPage />} />
+      <Route path="/propiedades" element={ <Propiedades />} />
+      <Route path="/registroPropiedades" element={ <RegistroPropiedades />} />
+      <Route path="/registroPersonas" element={ <Comentario />} />
+      </Routes> 
+       
     </div>
   );
 }

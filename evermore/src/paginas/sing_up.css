@@ -1,5 +1,5 @@
-body{
-    background-image: url('../../img/house.jpg');
+.cuerpoComentario{
+    background-image: url('../img//house.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;

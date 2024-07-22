@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import "./Footer/footer.css";
-=======
 import "./footer.css";
->>>>>>> parent of 79ec7f0 (Organizacion por carpetas)
 import face from '../img/facebook.png'
 import insta from '../img/instagram.png'
 import link from '../img/linkedin.png'
