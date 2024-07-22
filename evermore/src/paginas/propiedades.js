@@ -5,12 +5,12 @@ import Buscador from "../componentes/buscador"
 
 function Propiedades(){
     return(
-        <>
+        <div className="bodyPropiedades">
          <Navbar />
          <Buscador />
          <PropiedadesArt />
          <Footer />
-        </>
+        </div>
     )
 }
 
