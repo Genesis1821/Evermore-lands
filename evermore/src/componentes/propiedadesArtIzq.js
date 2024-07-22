@@ -41,7 +41,7 @@ function PropiedadesArt(img){
         </ div>
         <div className="gridcontein">
         <div className="grid2">
-        <h3 className="tituloProp">Avenida Imaginaria 456, Colonia Inventada, 06000 Ciudad de México, México</h3>
+        <h3 className="tituloProp">1234 Elm Street, Springfield, IL 62704, USA</h3>
             <p className="squareMeters">500m2</p>
             <p className="kindProperty">Casa de dos plantas </p>
             <p className='actualState'>Estado actual, remplazo del aire acondicionado </p>
@@ -52,7 +52,7 @@ function PropiedadesArt(img){
         </ div>
         <div className="gridcontein">
         <div className="grid1">
-        <h3 className="tituloProp">Rua Inexistente 789, Bairro Fantasia, 01000-000 São Paulo, Brasil</h3>
+        <h3 className="tituloProp">1 Infinite Loop, Cupertino, CA 95014, USA</h3>
             <p className="squareMeters">7500m2</p>
             <p className="kindProperty">Casa con Piscina y patio  trasero</p>
             <p className='actualState'>En excelente estado actual </p>

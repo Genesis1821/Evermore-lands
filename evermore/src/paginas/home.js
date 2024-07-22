@@ -7,7 +7,7 @@ function LandingPage(){
     return(
         <div className="cuerpoLandind">
          <Navbar />
-        <Articulo />
+         <Articulo />
          <Footer />
         </div>
     )
