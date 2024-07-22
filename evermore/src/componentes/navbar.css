@@ -27,6 +27,7 @@ h3{
     font-size: .8rem;
     text-decoration: none;
     display: inline-block;
+    margin: 0.5rem;
 }
 .navEnlace:hover{
     font-weight: 500;

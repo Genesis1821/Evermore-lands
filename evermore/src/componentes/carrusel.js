@@ -1,52 +1,37 @@
+import React from 'react';
+import flechaA from '../img/flecha-izquierda.png'
+import flechaS from '../img/flecha-derecha.png'
+import './carrusel.css'
 
 
-function Carrusel(){
-    const carousel = document.querySelector('.carrusel');
-    const images = carousel.querySelectorAll('img');
-    let currentIndex = 0;
-
-    function showImage(index) {
-    images.forEach((image, i) => {
-        if (i === index) {
-        image.style.display = 'block';
-        } else {
-        image.style.display = 'none';
-        }
-    });
+function Carrusel({imagenes}){
+    //Variables y estados
+    const [imagennActual, setImagenActual] = React.useState(0);
+    const cantidad = imagenes.length;
+    //Verificacion de que el array no esta vacio
+    if(!Array.isArray(imagenes) || cantidad === 0)
+        return;
+    
+    const siguienteImagen = ()=>{
+        setImagenActual(imagennActual === cantidad - 1 ? 0 : imagennActual + 1)
     }
-
-    function nextImage() {
-    currentIndex++;
-    if (currentIndex >= images.length) {
-        currentIndex = 0;
+        const anteriorImagen = ()=>{
+            setImagenActual(imagennActual === 0 ? cantidad - 1 : imagennActual -1)
+        
     }
-    showImage(currentIndex);
-    }
-
-    function previousImage() {
-    currentIndex--;
-    if (currentIndex < 0) {
-        currentIndex = images.length - 1;
-    }
-    showImage(currentIndex);
-    }
-
-    // Event listeners para los botones de siguiente y anterior
-    document.querySelector('.next-button').addEventListener('click', nextImage);
-    document.querySelector('.previous-button').addEventListener('click', previousImage);
-
-    // Mostrar la primera imagen al cargar la página
-    showImage(currentIndex);
-    return(
-        <>
-        <img src="../img/chateau.jpg" alt="Propiedad"></img>
-        <img src="../img/construction.jpg" alt="Propiedad"></img>
-        <img src="../img/architecture.jpg" alt="Propiedad"></img>
-        <img src="../img/alley.jpg" alt="Propiedad"></img>
-        <button class="next-button"> <img src="img/flecha1.png" alt="" class="next-img"></img></button>
-        <button class="previous-button"><img src="img/flecha2.png" alt="" class="before-img"></img> </button>
-        </>
-    )
+   return(
+    <div className='contenedor'>
+ <button onClick={anteriorImagen} ><img src={flechaA} alt='Flecha anterior' width={30}></img></button>
+ {imagenes.map((imagen, index)=>{
+    return <div>{imagennActual === index && (<img key={index} src={imagen} alt='imagen Carrusel' className='imagenCarrusel' ></img>
+    )}
+                </div>
+ } )}
+ <button onClick={siguienteImagen} ><img src={flechaS} alt='Flecha siguiente' width={30}></img></button>
+    
+    </div>
+   )
+     
 };
 
-export default Carrusel
+export default Carrusel;
